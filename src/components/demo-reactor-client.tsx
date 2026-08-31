@@ -139,7 +139,7 @@ export default function DemoReactorClient() {
           <p>Queue a condition change. In the real engine, the next tick will incorporate it into the audit trail and world state.</p>
           <textarea value={intervention} placeholder="Describe an intervention…" onChange={(event) => setIntervention(event.target.value)} disabled={status === "TERMINATED"} />
           <button className="primary button-reset" onClick={applyIntervention} disabled={status === "TERMINATED"}>Queue intervention</button>
-          <Link className="secondary live-edit-link" href="/create">Edit configuration</Link>
+          <Link className="secondary live-edit-link" href="/create">Create another Reactor</Link>
         </aside>
       </div>
     </main>
