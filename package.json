@@ -1,0 +1,24 @@
+{
+  "name": "air-artificial-intelligence-reactor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "demo": "node --experimental-strip-types scripts/run-demo.ts",
+    "test": "node --test --experimental-strip-types tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.9.0"
+  }
+}
