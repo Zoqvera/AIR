@@ -1,0 +1,28 @@
+.site-footer {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 24px 5vw 32px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: .04em;
+  text-align: center;
+}
+
+.site-footer a {
+  color: var(--text);
+  font-weight: 700;
+  transition: color .2s ease;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: var(--accent);
+}
+
+@media (max-width: 620px) {
+  .site-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
